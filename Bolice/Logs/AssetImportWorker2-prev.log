@@ -1,0 +1,567 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'fr' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/user/Bolice
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+65129
+Successfully changed project path to: C:/Users/user/Bolice
+C:/Users/user/Bolice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 111.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Bolice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012177 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3898 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (182.7 KB). Loaded Objects now: 4355.
+Memory consumption went from 139.0 MB to 138.8 MB.
+Total: 5.719400 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.120800 ms MarkObjects: 4.921700 ms  DeleteObjects: 0.199400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6709.848860 seconds.
+  path: Assets/StarterAssets/Editor
+  artifactKey: Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor using Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fa3d85c32b2b7ab4ced4cfde76d3f9') in 0.015131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.303843 seconds.
+  path: Assets/StarterAssets/Mobile
+  artifactKey: Guid(14344c134ca94dc42887027aebcf24a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile using Guid(14344c134ca94dc42887027aebcf24a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05e1af5497fda3d81fe637b35c98942') in 0.008038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.659299 seconds.
+  path: Assets/StarterAssets/ThirdPersonController
+  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a0e7b3c6b42ac925750c82348d4c12') in 0.007042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.516910 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes
+  artifactKey: Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes using Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a127d53529f65b92f458d3e10fd288') in 0.006772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.663939 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96440ea9fc75a6c4f25d7f5aadc5ea44') in 0.008386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 838.514745 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(01673a3e64092de4493fda32c27b1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(01673a3e64092de4493fda32c27b1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c163d80519c956d1f1c714c88f81b3f') in 0.007807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 370.227502 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.008320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.330611 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.007456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1432.828351 seconds.
+  path: Assets/StarterAssets
+  artifactKey: Guid(c59ea0b3901240c46b612f502385e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets using Guid(c59ea0b3901240c46b612f502385e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b790b087404100dfc07ce3d5680589') in 0.012253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 287.778391 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(8dafcf394dd84b04590fecb3edc96c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(8dafcf394dd84b04590fecb3edc96c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc92b9e3f259d299f0433c882089cc43') in 0.155379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.945226 seconds.
+  path: Assets/Resources/ArtWorks
+  artifactKey: Guid(ac2fc59843954244d8b043e92c5d6909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks using Guid(ac2fc59843954244d8b043e92c5d6909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a750e9f48092a91de780c10d8e319a9') in 0.010562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.060552 seconds.
+  path: Assets/Resources/ArtWorks/Rjab
+  artifactKey: Guid(c0434bcdb1587de44bb11f4800158bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab using Guid(c0434bcdb1587de44bb11f4800158bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25803a94b26a40192315ac964086db2a') in 0.009699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144916 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/RjabDown.mask
+  artifactKey: Guid(310c1d493c3cd404a8173325203bd659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/RjabDown.mask using Guid(310c1d493c3cd404a8173325203bd659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70953e24d678386ebd9d063024c447a7') in 0.015204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602747 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model
+  artifactKey: Guid(532a7ef1ff1c6c14da77c88b12ce092d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model using Guid(532a7ef1ff1c6c14da77c88b12ce092d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d20ff148fa7e4ccdd99da6594f0062') in 0.008259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026053 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/anti_ball_new.png
+  artifactKey: Guid(7e8b90263b08b1c4c983238fb5db766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/anti_ball_new.png using Guid(7e8b90263b08b1c4c983238fb5db766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa337f0ad57179d6e5d1de9f45f8c5d0') in 0.136826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Rjab.fbx
+  artifactKey: Guid(c9dd9dddbf9937643ac469a2a7f74916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Rjab.fbx using Guid(c9dd9dddbf9937643ac469a2a7f74916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ad94a7b4e1df51d7097d244e9ce7a6') in 0.833500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 353.543681 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/bodymat.mat
+  artifactKey: Guid(baa5cd4fff4b3d54c845717a61dc9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/bodymat.mat using Guid(baa5cd4fff4b3d54c845717a61dc9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d950e45c96e79b0674b18811c3ee9f8') in 0.097499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.992147 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/aniball.mat
+  artifactKey: Guid(a1e8ca026af9db54c9ea7aa3b692beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/aniball.mat using Guid(a1e8ca026af9db54c9ea7aa3b692beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73feb4b6371e195d0b6452433f6aba33') in 0.019078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.017404 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/serwel.mat
+  artifactKey: Guid(20531a8534b0fda4bbd2f9047aaa7e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/serwel.mat using Guid(20531a8534b0fda4bbd2f9047aaa7e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce1661f58a64e689346005bec1da426') in 0.010719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.253577 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Rjab.controller
+  artifactKey: Guid(41109db41885dbd4080eb0b890e2ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Rjab.controller using Guid(41109db41885dbd4080eb0b890e2ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e72f217d0713bf32a08bd104500e58d') in 0.011981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.556809 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials
+  artifactKey: Guid(d3784842c1bf8d64e9ab964dfdb937b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials using Guid(d3784842c1bf8d64e9ab964dfdb937b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc27a8d0f0a8a43c88f674877f57459') in 0.007660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026424 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/anti_ball_new 1.mat
+  artifactKey: Guid(b2568d75667f4d64293af4bd64b10fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/anti_ball_new 1.mat using Guid(b2568d75667f4d64293af4bd64b10fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b023c121470a26f43c06bdffd9d40') in 0.036886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020428 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/lambert2.mat
+  artifactKey: Guid(b4a1ed39b2d1f2d41bb5b8b811633b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/lambert2.mat using Guid(b4a1ed39b2d1f2d41bb5b8b811633b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924e7d10ed78dc00de4f5ef6f27e3f42') in 0.028154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/serwel 1.mat
+  artifactKey: Guid(102dca1af863ad142b80396ff2ddc4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/serwel 1.mat using Guid(102dca1af863ad142b80396ff2ddc4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7530903d3ff0d9c1025529aa2be4d7f3') in 0.027303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/Body_head.mat
+  artifactKey: Guid(7865b1b2698a3f940ba25a9d738aeb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/Body_head.mat using Guid(7865b1b2698a3f940ba25a9d738aeb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6960f81462fe9ef302b039a8de53ff') in 0.019696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/Body_head 1.mat
+  artifactKey: Guid(374df61f5b8d6784dbe7893a2eb20b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/Body_head 1.mat using Guid(374df61f5b8d6784dbe7893a2eb20b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf210f1cdca8e96f88b3a80cd071f2be') in 0.031665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/serwel.mat
+  artifactKey: Guid(a94e8add3563e9c479d8a7c0af510be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/serwel.mat using Guid(a94e8add3563e9c479d8a7c0af510be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8aaccdb2b036c7eeaa820250a7e2d') in 0.015069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Model/Materials/lambert6.mat
+  artifactKey: Guid(6e2fd6b59a344f143accee4d63bec149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Model/Materials/lambert6.mat using Guid(6e2fd6b59a344f143accee4d63bec149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1699ef2debc77e4c25ea2958440ebe01') in 0.026504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.658223 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations
+  artifactKey: Guid(775282d9fc07d704a8f1e90f2f2a4e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations using Guid(775282d9fc07d704a8f1e90f2f2a4e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27d3a12f673fced6fd26f24a2d6aa3c') in 0.007052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033976 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/crouching_turn_90_left.fbx
+  artifactKey: Guid(cee9a16f27d75cc4b8e95c59e70d2787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/crouching_turn_90_left.fbx using Guid(cee9a16f27d75cc4b8e95c59e70d2787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b91963b991de05f039263c005c5b2b1') in 0.123886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/idle_crouching.fbx
+  artifactKey: Guid(360d2fe77dd138b4b8cd3c31b7479c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/idle_crouching.fbx using Guid(360d2fe77dd138b4b8cd3c31b7479c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e495e8a0fa3dbe3e2dacc402080ec19') in 0.087721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_left.fbx
+  artifactKey: Guid(e032f2c37a58e70438eb824eae06f080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_left.fbx using Guid(e032f2c37a58e70438eb824eae06f080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371b3bf31081aa98f4513db7048c9bb9') in 0.089360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/turn_90_left.fbx
+  artifactKey: Guid(a0004a5f871e8b44d997475481adc4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/turn_90_left.fbx using Guid(a0004a5f871e8b44d997475481adc4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870de788e45fddcc7feb9353fd78c297') in 0.091626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_right.fbx
+  artifactKey: Guid(12bf0864fafc0aa45b4a14c0ec084cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_right.fbx using Guid(12bf0864fafc0aa45b4a14c0ec084cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd47b9dcb78c84c927d5f0153ff2385b') in 0.080875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/sprint_backward_left.fbx
+  artifactKey: Guid(2e131aec99b03c245b03cc70d52e7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/sprint_backward_left.fbx using Guid(2e131aec99b03c245b03cc70d52e7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c41c756d6b5645e420cf5766cada6a') in 0.101414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/sprint_backward.fbx
+  artifactKey: Guid(e1ef0da9db441e340a0f1dfdc02112d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/sprint_backward.fbx using Guid(e1ef0da9db441e340a0f1dfdc02112d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e0d948846e8c84a964bee35200162c') in 0.096330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/run_forward_left.fbx
+  artifactKey: Guid(31500aaf1f424c74792b3e2c9be375e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/run_forward_left.fbx using Guid(31500aaf1f424c74792b3e2c9be375e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ae40b30077cf633aad8d372aac8cff') in 0.091714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/run_forward.fbx
+  artifactKey: Guid(6e4a712f92fb2954e84fb86ccfe77643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/run_forward.fbx using Guid(6e4a712f92fb2954e84fb86ccfe77643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a075769b490b66634bd688ad1fc0b41') in 0.081024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/run_backward_left.fbx
+  artifactKey: Guid(06597d48339fe4541aca017f1d18994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/run_backward_left.fbx using Guid(06597d48339fe4541aca017f1d18994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d789f88a0987af7914fcb8079eac838') in 0.087903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_right.fbx
+  artifactKey: Guid(ba72f60a2bdd51a47b25065da71eae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_right.fbx using Guid(ba72f60a2bdd51a47b25065da71eae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99626de6b2617f9b1e00c718a9ff9000') in 0.088577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/jump_loop.fbx
+  artifactKey: Guid(cd1446244c3def94c834d88f06877477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/jump_loop.fbx using Guid(cd1446244c3def94c834d88f06877477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a7660c8c58bd7049678822982c6eea') in 0.096537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_forward.fbx
+  artifactKey: Guid(8f99651b7bb3a614fa836662d703cdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_forward.fbx using Guid(8f99651b7bb3a614fa836662d703cdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01dc3182c4cffcca11ac6ad25ad65ce') in 0.084666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_backward.fbx
+  artifactKey: Guid(1c9db3c6082ed084fa2f036f55ca2c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_backward.fbx using Guid(1c9db3c6082ed084fa2f036f55ca2c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4733816045276fe81905a1f1beb326e') in 0.082192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/run_right.fbx
+  artifactKey: Guid(981b2052fc225da40b89f91e7dd126e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/run_right.fbx using Guid(981b2052fc225da40b89f91e7dd126e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2e215678421175aec4358d4140a84') in 0.079425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/death_from_back_headshot.fbx
+  artifactKey: Guid(3787ae2fd1223cc43ae371e2e2efc384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/death_from_back_headshot.fbx using Guid(3787ae2fd1223cc43ae371e2e2efc384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cd588024642d03ad12ea02d4056220') in 0.079404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_forward_left.fbx
+  artifactKey: Guid(5f486c44804461f44b257f3e7ee8081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_forward_left.fbx using Guid(5f486c44804461f44b257f3e7ee8081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3099433e416ee4e97356ef3eaf75379a') in 0.083196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/run_backward_right.fbx
+  artifactKey: Guid(5266d438264ea554bb7ff7f7fa3550f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/run_backward_right.fbx using Guid(5266d438264ea554bb7ff7f7fa3550f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d44b525c2c0b6ff5dd0f1f3d0ef29f4') in 0.086987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/idle_crouching_aiming.fbx
+  artifactKey: Guid(9228f96482552a24bb298bedcb5734e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/idle_crouching_aiming.fbx using Guid(9228f96482552a24bb298bedcb5734e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5058df981c7c9a4db37a50249be21d') in 0.082883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/death_from_the_back.fbx
+  artifactKey: Guid(ba19b6f434e73cf4da72d8cb5f420cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/death_from_the_back.fbx using Guid(ba19b6f434e73cf4da72d8cb5f420cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca50d4f3487746ecd8b8b58ef5ac096c') in 0.080595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/death_from_the_front.fbx
+  artifactKey: Guid(5df5f4b78508eb149bfa6c7abf5d6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/death_from_the_front.fbx using Guid(5df5f4b78508eb149bfa6c7abf5d6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61d94d9759b8072bdcba565bfb97c5b') in 0.077800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_backward_right.fbx
+  artifactKey: Guid(65b26180fb0c2054daf8f00da8a860a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_backward_right.fbx using Guid(65b26180fb0c2054daf8f00da8a860a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6bea5c75d19555cbd8060e19486a91') in 0.078318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/death_crouching_headshot_front.fbx
+  artifactKey: Guid(21770c768c797f54eb18811a4760cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/death_crouching_headshot_front.fbx using Guid(21770c768c797f54eb18811a4760cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3b070b390bb418e0ed83b6aae0e77a') in 0.075638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/run_left.fbx
+  artifactKey: Guid(ce1450150a244f345af013436c196cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/run_left.fbx using Guid(ce1450150a244f345af013436c196cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aa6cb51bb5d61eeede110a8368344e') in 0.087910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_backward_left.fbx
+  artifactKey: Guid(46319f37f6e7ef94fbb393cbdab5e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Rjab/Animations/walk_crouching_backward_left.fbx using Guid(46319f37f6e7ef94fbb393cbdab5e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aa73ce057352f7c62bb26bdf3f67c6') in 0.108732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.349634 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+  artifactKey: Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx using Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45dfb5e60c672e88093a194605aad8') in 0.017913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/ArtWorks/Theive/Animation/sword_and_shield_crouch_block_idle.fbx
+  artifactKey: Guid(d418b1fed52a6064991e259055b8b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Theive/Animation/sword_and_shield_crouch_block_idle.fbx using Guid(d418b1fed52a6064991e259055b8b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4571cb1e9e9da523296045148b55d75f') in 0.139907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/ArtWorks/Theive/Animation/sword_and_shield_idle (3).fbx
+  artifactKey: Guid(731c4c84161e60840b6963ff082041a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Theive/Animation/sword_and_shield_idle (3).fbx using Guid(731c4c84161e60840b6963ff082041a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee40be025ee6128df0c99d246be0c0') in 0.055424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/ArtWorks/Theive/Animation/sword_and_shield_crouch_idle.fbx
+  artifactKey: Guid(1c145187f511e4a4ea2605b68e4f0dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ArtWorks/Theive/Animation/sword_and_shield_crouch_idle.fbx using Guid(1c145187f511e4a4ea2605b68e4f0dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d566d4c373004899848e93cd9ffe6f') in 0.055381 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1751ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1310ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3891 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (0.7 MB). Loaded Objects now: 4418.
+Memory consumption went from 158.1 MB to 157.5 MB.
+Total: 6.306800 ms (FindLiveObjects: 0.459800 ms CreateObjectMapping: 0.118000 ms MarkObjects: 4.919000 ms  DeleteObjects: 0.808400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
